@@ -12,10 +12,11 @@ One-time setup
    python -m venv .venv
 
 2. Install backend packages:
-   .\.venv\Scripts\python.exe -m pip install -r healthbig\backend\requirements.txt
+   .\.venv\Scripts\python.exe -m 
+   pip install -r requirements.txt
 
 3. Install frontend packages:
-   npm --prefix healthbig\frontend install
+   npm --prefix  install
 
 Start the application
 ---------------------
@@ -37,3 +38,4 @@ This project is for educational demonstration; do not use real patient data.
 Stop the application
 --------------------
 Close the two server command windows opened by run_all.bat.
+pwd_db: npg_iwRYCTPNF36y@ep-shy-hall-beb6jbtv-pooler
