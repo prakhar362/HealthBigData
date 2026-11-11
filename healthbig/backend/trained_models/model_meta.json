@@ -1,0 +1,114 @@
+{
+  "metrics": {
+    "Logistic Regression": {
+      "model_name": "Logistic Regression",
+      "accuracy": 0.9348,
+      "precision": 0.9378,
+      "recall": 0.9348,
+      "f1_score": 0.9357,
+      "confusion_matrix": [
+        [
+          67,
+          4,
+          0
+        ],
+        [
+          2,
+          30,
+          1
+        ],
+        [
+          0,
+          2,
+          32
+        ]
+      ],
+      "class_names": [
+        "Low Risk",
+        "Medium Risk",
+        "High Risk"
+      ]
+    },
+    "Decision Tree": {
+      "model_name": "Decision Tree",
+      "accuracy": 0.7464,
+      "precision": 0.7529,
+      "recall": 0.7464,
+      "f1_score": 0.749,
+      "confusion_matrix": [
+        [
+          62,
+          9,
+          0
+        ],
+        [
+          9,
+          17,
+          7
+        ],
+        [
+          0,
+          10,
+          24
+        ]
+      ],
+      "class_names": [
+        "Low Risk",
+        "Medium Risk",
+        "High Risk"
+      ]
+    },
+    "Random Forest": {
+      "model_name": "Random Forest",
+      "accuracy": 0.8333,
+      "precision": 0.8361,
+      "recall": 0.8333,
+      "f1_score": 0.8345,
+      "confusion_matrix": [
+        [
+          64,
+          7,
+          0
+        ],
+        [
+          5,
+          22,
+          6
+        ],
+        [
+          0,
+          5,
+          29
+        ]
+      ],
+      "class_names": [
+        "Low Risk",
+        "Medium Risk",
+        "High Risk"
+      ]
+    }
+  },
+  "best_model_name": "Logistic Regression",
+  "feature_names": [
+    "age",
+    "bmi",
+    "blood_pressure_systolic",
+    "blood_glucose",
+    "cholesterol",
+    "smoking_numeric",
+    "physical_activity",
+    "heart_disease",
+    "stroke"
+  ],
+  "feature_importances": {
+    "age": 0.0605,
+    "bmi": 0.2493,
+    "blood_pressure_systolic": 0.1946,
+    "blood_glucose": 0.2242,
+    "cholesterol": 0.0868,
+    "smoking_numeric": 0.0531,
+    "physical_activity": 0.097,
+    "heart_disease": 0.0299,
+    "stroke": 0.0047
+  }
+}
