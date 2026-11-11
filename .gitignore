@@ -1,7 +1,0 @@
-# Python virtual environments
-**/.venv/
-
-# Local environment variables and secrets
-**/.env
-**/.env.*
-!**/.env.example
