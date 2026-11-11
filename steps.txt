@@ -1,0 +1,39 @@
+HealthBig - local startup steps (Windows)
+
+Prerequisites
+-------------
+1. Install Python 3.10 or newer.
+2. Install Node.js and npm (use a Node version supported by Vite 8).
+3. Open PowerShell in the repository folder (the folder containing run_all.bat).
+
+One-time setup
+--------------
+1. Create a Python virtual environment:
+   python -m venv .venv
+
+2. Install backend packages:
+   .\.venv\Scripts\python.exe -m pip install -r healthbig\backend\requirements.txt
+
+3. Install frontend packages:
+   npm --prefix healthbig\frontend install
+
+Start the application
+---------------------
+1. From the repository folder, run:
+   .\run_all.bat
+
+2. Wait for the backend and frontend command windows to start.
+3. Open the dashboard:
+   http://localhost:5173
+4. The backend API is at:
+   http://localhost:8000
+5. Interactive API documentation:
+   http://localhost:8000/docs
+
+The backend creates the database tables and seeds synthetic demo data when
+needed. It uses SQLite locally if PostgreSQL is not configured or available.
+This project is for educational demonstration; do not use real patient data.
+
+Stop the application
+--------------------
+Close the two server command windows opened by run_all.bat.

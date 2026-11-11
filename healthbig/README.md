@@ -1,14 +1,13 @@
 # HealthBig – Healthcare Big Data Analytics and Patient Risk Prediction System
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
-[![React](https://img.shields.io/badge/React-18%2F19-61DAFB.svg?logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6.svg?logo=typescript)](https://www.typescriptlang.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB.svg?logo=react)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-7-3178C6.svg?logo=typescript)](https://www.typescriptlang.org)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.5+-F7931E.svg?logo=scikit-learn)](https://scikit-learn.org)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17%2F18-336791.svg?logo=postgresql)](https://www.postgresql.org)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-supported-336791.svg?logo=postgresql)](https://www.postgresql.org)
 
-**HealthBig** is a comprehensive, production-grade academic Healthcare Big Data Analytics web application and clinical decision-support demonstration system. It is designed for university engineering mini-projects focusing on healthcare big data processing, supervised patient risk prediction, chronic disease epidemiology, and simulated live vital telemetry.
+**HealthBig** is an academic Healthcare Big Data Analytics web application and clinical decision-support demonstration system. It is designed for university engineering mini-projects focusing on healthcare data processing, supervised patient risk prediction, chronic disease epidemiology, and simulated vital telemetry. It is not a production clinical system.
 
 ---
 
@@ -17,14 +16,14 @@
 ```text
                                  +-------------------------------------------------------+
                                  |                 HEALTHBIG CLIENT UI                   |
-                                 |      React 18/19 + TypeScript + Vite + Tailwind       |
+                                 |      React 19 + TypeScript + Vite + Tailwind          |
                                  |    Recharts Interactive Visualizations + Lucide Icons |
                                  +---------------------------+---------------------------+
                                                              | REST APIs / JSON / Polling
                                                              v
                                  +-------------------------------------------------------+
                                  |                  FASTAPI BACKEND                      |
-                                 |       Python 3.13 + Pydantic v2 Strong Typing         |
+                                 |       Python + Pydantic v2                           |
                                  |       SQLAlchemy 2.0 ORM Engine + ReportLab PDF       |
                                  +----+----------------------+-----------------------+---+
                                       |                      |                       |
@@ -217,81 +216,18 @@ healthbig/
     requirements.txt
     .env.example
   README.md
-  run_all.bat
-  run_backend.bat
-  run_frontend.bat
+  ../README.md
+  ../steps.txt
+  ../run_all.bat
+  ../run_backend.bat
+  ../run_frontend.bat
 ```
 
 ---
 
 ## 🚀 Quick Start Guide
 
-### Prerequisites
-- **Python**: Version 3.10+ (Python 3.13 supported)
-- **Node.js**: Version 18+ (Node 20/24 supported)
-- **PostgreSQL** (Optional): Version 14+ (if PostgreSQL is not running, the application automatically uses a local SQLite database `healthbig.db`)
-
----
-
-### Step 1: Backend Installation & Setup
-
-1. Open PowerShell or Command Prompt in the project directory:
-   ```powershell
-   cd c:\Users\Student\Desktop\bda
-   ```
-
-2. If not already created, create a Python virtual environment:
-   ```powershell
-   python -m venv .venv
-   .\.venv\Scripts\activate
-   ```
-
-3. Install backend dependencies:
-   ```powershell
-   pip install -r healthbig/backend/requirements.txt
-   ```
-
-4. Configure environment variables (optional):
-   ```powershell
-   copy healthbig\backend\.env.example healthbig\backend\.env
-   ```
-
-5. Start the FastAPI backend server:
-   ```powershell
-   cd healthbig\backend
-   ..\..\.venv\Scripts\python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
-   ```
-   *The backend will automatically create all tables, seed the demo healthcare cohort, train all 3 ML models, and activate the real-time vital telemetry simulator.*
-
----
-
-### Step 2: Frontend Installation & Setup
-
-1. In a second terminal window, navigate to the frontend directory:
-   ```powershell
-   cd c:\Users\Student\Desktop\bda\healthbig\frontend
-   ```
-
-2. Install dependencies:
-   ```powershell
-   npm install
-   ```
-
-3. Start the Vite React development server:
-   ```powershell
-   npm run dev
-   ```
-
-4. Open your browser and navigate to:
-   ```text
-   http://localhost:5173
-   ```
-
----
-
-### One-Click Launch (Windows)
-
-Double-click `run_all.bat` in the root directory. This script will automatically start both the backend server (port 8000) and the frontend dashboard (port 5173).
+For the combined Windows setup, dependency installation, and startup steps, use the repository-root [`steps.txt`](../steps.txt). From the repository root, it starts both services with `run_all.bat`; separate backend and frontend launch instructions are not required.
 
 ---
 
@@ -375,4 +311,3 @@ FastAPI provides an interactive OpenAPI / Swagger UI accessible at `http://local
 > [!IMPORTANT]
 > **HealthBig is an academic Big Data Analytics mini-project developed for university coursework demonstration.**
 > The models, risk classifications, simulated telemetry waveforms, and thresholds are intended for educational and computational demonstration purposes only. They do not constitute clinical diagnoses, medical advice, or prescriptive guidelines.
-
