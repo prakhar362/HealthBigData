@@ -55,10 +55,13 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# Enable CORS for frontend development
+# Allow the local and deployed frontend origins.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # In development allow all, or specific origins like http://localhost:5173
+    allow_origins=[
+        "http://localhost:5173",
+        "https://health-big-data.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
