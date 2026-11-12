@@ -26,13 +26,21 @@ Add screenshots of the application dashboards below. For a wide dashboard view, 
 
 | Overview Dashboard | Patient Management |
 | :---: | :---: |
-| <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Overview dashboard" /> | <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Patient management dashboard" /> |
+| <img src="<img width="1915" height="872" alt="image" src="https://github.com/user-attachments/assets/9903740c-d520-4afd-9b80-7071f650bc98" />
+" width="360" alt="Overview dashboard" /> | <img src="<img width="1907" height="863" alt="image" src="https://github.com/user-attachments/assets/fdfa51cb-5539-466a-8a7c-23bd1620ccf8" />
+" width="360" alt="Patient management dashboard" /> |
 | **Disease Analytics** | **Hospital Analytics** |
-| <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Disease analytics dashboard" /> | <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Hospital analytics dashboard" /> |
+| <img src="<img width="1887" height="857" alt="image" src="https://github.com/user-attachments/assets/ebb35414-c3ff-4e01-aad5-610c2d0e3866" />
+" width="360" alt="Disease analytics dashboard" /> | <img src="<img width="1626" height="813" alt="image" src="https://github.com/user-attachments/assets/721a6176-66cd-45db-b20a-fb166a783bd3" />
+" width="360" alt="Hospital analytics dashboard" /> |
 | **Risk Prediction** | **Live Monitoring** |
-| <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Patient risk prediction dashboard" /> | <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Live patient monitoring dashboard" /> |
+| <img src="<img width="1587" height="736" alt="image" src="https://github.com/user-attachments/assets/2bab28d9-b6f4-48f5-be17-82c66e06284c" />
+" width="360" alt="Patient risk prediction dashboard" /> | <img src="<img width="1071" height="797" alt="image" src="https://github.com/user-attachments/assets/ecb91904-2ef3-4936-a922-63b4590a8abd" />
+" width="360" alt="Live patient monitoring dashboard" /> |
 | **Data Management** | **Analytical Reports** |
-| <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Data management dashboard" /> | <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Analytical reports dashboard" /> |
+| <img src="<img width="1591" height="863" alt="image" src="https://github.com/user-attachments/assets/c9db42d8-a5f5-4c21-a25f-2e8c0280f981" />
+" width="360" alt="Data management dashboard" /> | <img src="<img width="1552" height="762" alt="image" src="https://github.com/user-attachments/assets/50cf7079-c4b3-4421-bc48-2f388ed2e3a5" />
+" width="360" alt="Analytical reports dashboard" /> |
 
 ## How it works
 
