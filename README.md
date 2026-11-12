@@ -20,6 +20,20 @@
 
 The application seeds an empty database with synthetic demo records and trains its classifiers when the backend starts. The monitoring simulator generates readings periodically in the running backend process; this is a demonstration, not a medical telemetry service.
 
+## 📸 App Screenshots
+
+Add screenshots of the application dashboards below. For a wide dashboard view, use images around a **3:2 aspect ratio** and replace each `PASTE_SCREENSHOT_URL_HERE` with its GitHub attachment URL.
+
+| Overview Dashboard | Patient Management |
+| :---: | :---: |
+| <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Overview dashboard" /> | <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Patient management dashboard" /> |
+| **Disease Analytics** | **Hospital Analytics** |
+| <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Disease analytics dashboard" /> | <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Hospital analytics dashboard" /> |
+| **Risk Prediction** | **Live Monitoring** |
+| <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Patient risk prediction dashboard" /> | <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Live patient monitoring dashboard" /> |
+| **Data Management** | **Analytical Reports** |
+| <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Data management dashboard" /> | <img src="PASTE_SCREENSHOT_URL_HERE" width="360" alt="Analytical reports dashboard" /> |
+
 ## How it works
 
 ```text
