@@ -22,7 +22,6 @@ The application seeds an empty database with synthetic demo records and trains i
 
 ## 📸 App Screenshots
 
-Add screenshots of the application dashboards below. For a wide dashboard view, use images around a **3:2 aspect ratio** and replace each `PASTE_SCREENSHOT_URL_HERE` with its GitHub attachment URL.
 
 | Overview Dashboard | Patient Management |
 | :---: | :---: |
